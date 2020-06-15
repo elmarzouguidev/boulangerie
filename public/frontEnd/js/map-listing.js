@@ -6,7 +6,7 @@
         }
 	    //  Map Infoboxes ------------------
         var locations = [
-            [locationData('https://www.amoud.ma', 'frontEnd/images/all/amoud.png', 'Amoud', " Casablanca Maroc", 'cafe-cat', "5", "12", "open"  ), 33.5534316,-7.6618086,13, 0 , 'frontEnd/images/all/amoud.png'],
+            [locationData('https://www.amoud.ma', 'frontEnd/images/all/amoud.png', 'Amoud', " Casablanca Maroc", 'cafe-cat', "5", "12", "open"  ), 33.5480091,-7.6291879,19, 0 , 'frontEnd/images/all/amoud.png'],
             // [locationData('https://www.amoud.ma', 'frontEnd/images/all/amoud.png', 'Amoud', " Casablanca Maroc", 'cafe-cat', "5", "12", "open"  ), 33.5477587,-7.6280291,19, 0 , 'frontEnd/images/all/amoud.png'],
 
         ];
