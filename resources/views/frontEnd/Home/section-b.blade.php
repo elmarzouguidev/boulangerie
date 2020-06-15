@@ -12,7 +12,7 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>16 </span> Locations</div>
                         <div class="listing-item-grid_title">
@@ -25,7 +25,7 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>22 </span> Locations</div>
                         <div class="listing-item-grid_title">
@@ -38,7 +38,7 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>9 </span> Locations</div>
                         <div class="listing-item-grid_title">
@@ -51,7 +51,7 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>12 </span> Locations</div>
                         <div class="listing-item-grid_title">
@@ -64,7 +64,7 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-8">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="images/all/59.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/59.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>33 </span> Locations</div>
                         <div class="listing-item-grid_title">

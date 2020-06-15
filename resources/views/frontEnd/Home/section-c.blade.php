@@ -1,6 +1,6 @@
 <!--section end-->
 <section class="parallax-section small-par" data-scrollax-parent="true">
-    <div class="bg par-elem "  data-bg="images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
+    <div class="bg par-elem "  data-bg="frontEnd/images/bg/1.jpg" data-scrollax="properties: { translateY: '30%' }"></div>
     <div class="overlay  op7"></div>
     <div class="container">
         <div class=" single-facts single-facts_2 fl-wrap">

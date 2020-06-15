@@ -9,7 +9,7 @@
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <!--=============== css  ===============-->	
-    <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/reset.css')}}">
+        <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/reset.css')}}">
         <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/plugins.css')}}">
         <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/style.css')}}">
         <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/color.css')}}">
@@ -35,12 +35,10 @@
             <div id="wrapper">
                 <!-- content-->
                 <div class="content">
-                    
-                   
 
- 
-                    
-                    <!--section end-->
+                    <!-- haymacproduction-->
+                    @yield('content')
+
                 </div>
                 <!--content end-->
             </div>

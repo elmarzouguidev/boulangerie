@@ -19,7 +19,7 @@
                                     <div class="geodir-category-img">
                                         <div class="geodir-js-favorite_btn"><i class="fal fa-heart"></i><span>Save</span></div>
                                         <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                        <img src="images/all/1.jpg" alt=""> 
+                                        <img src="frontEnd/images/all/1.jpg" alt=""> 
                                         </a>
                                         <div class="geodir_status_date gsd_open"><i class="fal fa-lock-open"></i>Open Now</div>
                                         <div class="geodir-category-opt">
@@ -42,7 +42,7 @@
                                                     <span class="price-level-item" data-pricerating="2"></span>
                                                     <span class="price-name-tooltip">Pricey</span>
                                                 </div>
-                                                <div class="post-author"><a href="#"><img src="images/avatar/1.jpg" alt=""><span>By , Alisa Noory</span></a></div>
+                                                <div class="post-author"><a href="#"><img src="frontEnd/images/avatar/1.jpg" alt=""><span>By , Alisa Noory</span></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -61,7 +61,7 @@
                                     <div class="geodir-category-img">
                                         <div class="geodir-js-favorite_btn"><i class="fal fa-heart"></i><span>Save</span></div>
                                         <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                        <img src="images/all/1.jpg" alt=""> 
+                                        <img src="frontEnd/images/all/1.jpg" alt=""> 
                                         </a>
                                         <div class="geodir_status_date gsd_close"><i class="fal fa-lock"></i>Close Now</div>
                                         <div class="geodir-category-opt">
@@ -84,7 +84,7 @@
                                                     <span class="price-level-item" data-pricerating="3"></span>
                                                     <span class="price-name-tooltip">Moderate</span>
                                                 </div>
-                                                <div class="post-author"><a href="#"><img src="images/avatar/1.jpg" alt=""><span>By , Mark Rose</span></a></div>
+                                                <div class="post-author"><a href="#"><img src="frontEnd/images/avatar/1.jpg" alt=""><span>By , Mark Rose</span></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -103,7 +103,7 @@
                                     <div class="geodir-category-img">
                                         <div class="geodir-js-favorite_btn"><i class="fal fa-heart"></i><span>Save</span></div>
                                         <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                        <img src="images/all/1.jpg" alt=""> 
+                                        <img src="frontEnd/images/all/1.jpg" alt=""> 
                                         </a>
                                         <div class="geodir_status_date gsd_open"><i class="fal fa-lock-open"></i>Open Now</div>
                                         <div class="geodir-category-opt">
@@ -126,7 +126,7 @@
                                                     <span class="price-level-item" data-pricerating="4"></span>
                                                     <span class="price-name-tooltip">Ultra Hight</span>
                                                 </div>
-                                                <div class="post-author"><a href="#"><img src="images/avatar/1.jpg" alt=""><span>By , Nasty Wood</span></a></div>
+                                                <div class="post-author"><a href="#"><img src="frontEnd/images/avatar/1.jpg" alt=""><span>By , Nasty Wood</span></a></div>
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +145,7 @@
                                     <div class="geodir-category-img">
                                         <div class="geodir-js-favorite_btn"><i class="fal fa-heart"></i><span>Save</span></div>
                                         <a href="listing-single.html" class="geodir-category-img-wrap fl-wrap">
-                                        <img src="images/all/1.jpg" alt=""> 
+                                        <img src="frontEnd/images/all/1.jpg" alt=""> 
                                         </a>
                                         <div class="geodir_status_date gsd_open"><i class="fal fa-lock-open"></i>Open Now</div>
                                         <div class="geodir-category-opt">
@@ -168,7 +168,7 @@
                                                     <span class="price-level-item" data-pricerating="4"></span>
                                                     <span class="price-name-tooltip">Ultra Hight</span>
                                                 </div>
-                                                <div class="post-author"><a href="#"><img src="images/avatar/1.jpg" alt=""><span>By , Kliff Antony</span></a></div>
+                                                <div class="post-author"><a href="#"><img src="frontEnd/images/avatar/1.jpg" alt=""><span>By , Kliff Antony</span></a></div>
                                             </div>
                                         </div>
                                     </div>
