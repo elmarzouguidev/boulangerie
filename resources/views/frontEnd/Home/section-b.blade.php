@@ -2,22 +2,24 @@
 <section   class="gray-bg hidden-section particles-wrapper">
     <div class="container">
         <div class="section-title">
-            <h2>Explore Best Cities</h2>
-            <div class="section-subtitle">Catalog of Categories</div>
+            <h2>Vos patisseries par ville</h2>
+            {{-- <div class="section-subtitle">Catalog of Categories</div> --}}
             <span class="section-separator"></span>
-            <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus.</p>
+            <p>
+              pour vous et exlusivement il est désormais disponible de visualiser toutes les patisseries disponible par villes
+            </p>
         </div>
         <div class="listing-item-grid_container fl-wrap">
             <div class="row">
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/casablanca.jpg"></div>
                         <div class="d-gr-sec"></div>
-                        <div class="listing-counter color2-bg"><span>16 </span> Locations</div>
+                        <div class="listing-counter color2-bg"><span>150 </span> Locations</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">New York</a></h3>
-                            <p>Constant care and attention to the patients makes good record</p>
+                            <h3><a href="">Casablanca</a></h3>
+                            <p> casablanca ville</p>
                         </div>
                     </div>
                 </div>
@@ -25,12 +27,12 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/rabat.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>22 </span> Locations</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">Paris</a></h3>
-                            <p>Constant care and attention to the patients makes good record</p>
+                            <h3><a href="">Rabat</a></h3>
+                            <p>Rabat ville</p>
                         </div>
                     </div>
                 </div>
@@ -38,12 +40,12 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/agadir.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>9 </span> Locations</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">Moscow</a></h3>
-                            <p>Constant care and attention to the patients makes good record</p>
+                            <h3><a href="">Agadir</a></h3>
+                            <p>Agadir ville</p>
                         </div>
                     </div>
                 </div>
@@ -51,12 +53,12 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-4">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="frontEnd/images/all/1.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/tanger.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>12 </span> Locations</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">Rome</a></h3>
-                            <p>Constant care and attention to the patients makes good record</p>
+                            <h3><a href="listing.html">Tanger</a></h3>
+                            <p>Tanger villes</p>
                         </div>
                     </div>
                 </div>
@@ -64,12 +66,12 @@
                 <!--  listing-item-grid  -->
                 <div class="col-sm-8">
                     <div class="listing-item-grid">
-                        <div class="bg"  data-bg="frontEnd/images/all/59.jpg"></div>
+                        <div class="bg"  data-bg="frontEnd/images/all/kech.jpg"></div>
                         <div class="d-gr-sec"></div>
                         <div class="listing-counter color2-bg"><span>33 </span> Locations</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">London</a></h3>
-                            <p>Constant care and attention to the patients makes good record</p>
+                            <h3><a href="listing.html">Marrakech</a></h3>
+                            <p>Marrakech villes</p>
                         </div>
                     </div>
                 </div>
