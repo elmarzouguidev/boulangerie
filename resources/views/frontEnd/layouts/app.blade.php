@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr">
     <head>
         <!--=============== basic  ===============-->
         <meta charset="UTF-8">

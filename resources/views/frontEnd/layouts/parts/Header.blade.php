@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- logo-->
-    <a href="index.html" class="logo-holder"><img src="images/logo.png" alt=""></a>
+    <a href="{{route('home')}}" class="logo-holder"><img src="frontEnd/images/logoo.png" alt="maBoulangerie"></a>
     <!-- logo end-->
     <!-- header-search_btn-->         
     <div class="header-search_btn show-search-button"><i class="fal fa-search"></i><span>Search</span></div>
@@ -8,16 +8,15 @@
     <!-- header opt --> 
     <a href="dashboard-add-listing.html" class="add-list color-bg">Add Listing <span><i class="fal fa-layer-plus"></i></span></a>
     <div class="cart-btn   show-header-modal" data-microtip-position="bottom" role="tooltip" aria-label="Your Wishlist"><i class="fal fa-heart"></i><span class="cart-counter green-bg"></span> </div>
-    <div class="show-reg-form modal-open avatar-img" data-srcav="images/avatar/3.jpg"><i class="fal fa-user"></i>Sign In</div>
+    <div class="show-reg-form modal-open avatar-img" data-srcav="frontEnd/images/avatar/3.jpg"><i class="fal fa-user"></i>Sign In</div>
     <!-- header opt end--> 
     <!-- lang-wrap-->
     <div class="lang-wrap">
-        <div class="show-lang"><span><i class="fal fa-globe-europe"></i><strong>En</strong></span><i class="fa fa-caret-down arrlan"></i></div>
+        <div class="show-lang"><span><i class="fal fa-globe-europe"></i><strong>FR</strong></span><i class="fa fa-caret-down arrlan"></i></div>
         <ul class="lang-tooltip lang-action no-list-style">
-            <li><a href="#" class="current-lan" data-lantext="En">English</a></li>
-            <li><a href="#" data-lantext="Fr">Français</a></li>
-            <li><a href="#" data-lantext="Es">Español</a></li>
-            <li><a href="#" data-lantext="De">Deutsch</a></li>
+            <li><a href="#" class="current-lan" data-lantext="Fr">Français</a></li>
+            {{-- <li><a href="#" data-lantext="Fr">Français</a></li> --}}
+        
         </ul>
     </div>
     <!-- lang-wrap end-->                                 
@@ -33,8 +32,8 @@
         <nav>
             <ul class="no-list-style">
                 <li>
-                    <a href="#" class="act-link">Home <i class="fa fa-caret-down"></i></a>
-                    <!--second level -->   
+                <a href="{{route('home')}}" class="act-link">Accueil</a>
+                    {{-- <!--second level -->   
                     <ul>
                         <li><a href="index.html">Parallax Image</a></li>
                         <li><a href="index2.html">Slider</a></li>
@@ -42,63 +41,14 @@
                         <li><a href="index4.html">Video</a></li>
                         <li><a href="index5.html">Map</a></li>
                     </ul>
-                    <!--second level end-->
+                    <!--second level end--> --}}
                 </li>
-                <li>
-                    <a href="#">Listings <i class="fa fa-caret-down"></i></a>
-                    <!--second level -->
-                    <ul>
-                        <li><a href="listing.html">Column map</a></li>
-                        <li><a href="listing2.html">Column map 2</a></li>
-                        <li><a href="listing3.html">Fullwidth Map</a></li>
-                        <li><a href="listing4.html">Fullwidth Map 2</a></li>
-                        <li><a href="listing5.html">Without Map</a></li>
-                        <li><a href="listing6.html">Without Map 2</a></li>
-                        <li>
-                            <a href="#">Single <i class="fa fa-caret-down"></i></a>
-                            <!--third  level  -->
-                            <ul>
-                                <li><a href="listing-single.html">Style 1</a></li>
-                                <li><a href="listing-single2.html">Style 2</a></li>
-                                <li><a href="listing-single3.html">Style 3</a></li>
-                                <li><a href="listing-single4.html">Style 4</a></li>
-                            </ul>
-                            <!--third  level end-->
-                        </li>
-                    </ul>
-                    <!--second level end-->
-                </li>
-                <li>
-                    <a href="blog.html">News</a>
-                </li>
-                <li>
-                    <a href="#">Pages <i class="fa fa-caret-down"></i></a>
-                    <!--second level -->   
-                    <ul>
-                        <li>
-                            <a href="#">Shop<i class="fa fa-caret-down"></i></a>
-                            <!--third  level  -->
-                            <ul>
-                                <li><a href="shop.html">Products</a></li>
-                                <li><a href="product-single.html">Product single</a></li>
-                                <li><a href="cart.html">Cart</a></li>
-                            </ul>
-                            <!--third  level end-->
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                        <li><a href="author-single.html">User single</a></li>
-                        <li><a href="help.html">How it Works</a></li>
-                        <li><a href="booking.html">Booking</a></li>
-                        <li><a href="pricing-tables.html">Pricing</a></li>
-                        <li><a href="dashboard.html">User Dasboard</a></li>
-                        <li><a href="blog-single.html">Blog Single</a></li>
-                        <li><a href="dashboard-add-listing.html">Add Listing</a></li>
-                        <li><a href="invoice.html">Invoice</a></li>
-                        <li><a href="404.html">404</a></li>
-                    </ul>
-                    <!--second level end-->                                
-                </li>
+                <li><a href="index.html">Patisserie</a></li>
+                <li><a href="index.html">Boutique</a></li>
+                <li><a href="index.html">FNBP</a></li>
+                <li><a href="index.html">Espace pro</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
             </ul>
         </nav>
     </div>
