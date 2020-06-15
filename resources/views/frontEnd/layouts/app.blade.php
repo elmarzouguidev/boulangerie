@@ -13,6 +13,7 @@
         <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/plugins.css')}}">
         <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/style.css')}}">
         <link type="text/css" rel="stylesheet" href="{{asset('frontEnd/css/color.css')}}">
+        @yield('MuStyle')
         <!--=============== favicons ===============-->
         <link rel="shortcut icon" href="{{asset('frontEnd/images/favicon.ico')}}">
     </head>

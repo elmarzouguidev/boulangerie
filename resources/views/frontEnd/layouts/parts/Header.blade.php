@@ -43,9 +43,9 @@
                     </ul>
                     <!--second level end--> --}}
                 </li>
-                <li><a href="index.html">Patisserie</a></li>
-                <li><a href="index.html">Boutique</a></li>
-                <li><a href="index.html">FNBP</a></li>
+                <li><a href="{{route('patisserie')}}">Patisserie</a></li>
+                <li><a href="{{route('shop')}}">Boutique</a></li>
+                <li><a href="{{route('fnbp')}}">FNBP</a></li>
                 <li><a href="index.html">Espace pro</a></li>
                 <li><a href="index.html">About</a></li>
                 <li><a href="index.html">Contact</a></li>

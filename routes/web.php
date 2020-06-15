@@ -14,3 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/',['uses'=>'SiteController@index','as'=>'home']);
+Route::get('/patisseries',['uses'=>'SiteController@patisserie','as'=>'patisserie']);
+Route::get('/boutique',['uses'=>'SiteController@shop','as'=>'shop']);
+Route::get('fnbp',['uses'=>'SiteController@fnbp','as'=>'fnbp']);
+
+Route::group(['prefix' => 'theadmin'], function () {
+    Voyager::routes();
+});
