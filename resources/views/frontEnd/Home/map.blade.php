@@ -23,14 +23,14 @@
                     <div class="main-search-input fl-wrap">
                         <div class="main-search-input-item">
                             <label><i class="fal fa-keyboard"></i></label>
-                            <input type="text" placeholder="What are you looking for?" value=""/>
+                            <input type="text" placeholder="Votre boulagerie a proximité" value=""/>
                         </div>
                         <div class="main-search-input-item location autocomplete-container">
                             <label><i class="fal fa-map-marker-check"></i></label>
                             <input type="text" placeholder="Location" class="autocomplete-input" id="autocompleteid" value=""/>
                             <a href="#"><i class="fa fa-dot-circle-o"></i></a>
                         </div>
-                        <div class="main-search-input-item">
+                        {{-- <div class="main-search-input-item">
                             <select data-placeholder="All Categories"  class="chosen-select no-search-select" >
                                 <option>All Categories</option>
                                 <option>Shops</option>
@@ -39,8 +39,8 @@
                                 <option>Fitness</option>
                                 <option>Events</option>
                             </select>
-                        </div>
-                        <button class="main-search-button color2-bg" onclick="window.location.href='listing.html'">Search <i class="far fa-search"></i></button>
+                        </div> --}}
+                        <button class="main-search-button color2-bg" onclick="window.location.href='listing.html'">chercher <i class="far fa-search"></i></button>
                     </div>
                 </div>
             </div>

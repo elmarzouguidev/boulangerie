@@ -3,10 +3,13 @@
     <a href="{{route('home')}}" class="logo-holder"><img src="frontEnd/images/logoo.png" alt="maBoulangerie"></a>
     <!-- logo end-->
     <!-- header-search_btn-->         
-    <div class="header-search_btn show-search-button"><i class="fal fa-search"></i><span>Search</span></div>
+    <div class="header-search_btn show-search-button"><i class="fal fa-search"></i>
+        <span>
+        </span>
+    </div>
     <!-- header-search_btn end-->
     <!-- header opt --> 
-    <a href="dashboard-add-listing.html" class="add-list color-bg">Add Listing <span><i class="fal fa-layer-plus"></i></span></a>
+    <a href="" class="add-list color-bg">S'abonner <span><i class="fal fa-layer-plus"></i></span></a>
     <div class="cart-btn   show-header-modal" data-microtip-position="bottom" role="tooltip" aria-label="Your Wishlist"><i class="fal fa-heart"></i><span class="cart-counter green-bg"></span> </div>
     <div class="show-reg-form modal-open avatar-img" data-srcav="frontEnd/images/avatar/3.jpg"><i class="fal fa-user"></i>Sign In</div>
     <!-- header opt end--> 
