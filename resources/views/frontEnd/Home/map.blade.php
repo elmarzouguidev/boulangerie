@@ -3,8 +3,7 @@
     <div class="hero-map">
         <!-- Map -->
         <div class="map-container  fw-map big_map">
-            <div id="map-mainqq">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.2183805967097!2d-7.630306084551481!3d33.54770198074632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62d467dc05a2d%3A0x4d81013dcc8f617c!2sAMOUD%20CALIFORNIE!5e0!3m2!1sfr!2sma!4v1592233034741!5m2!1sfr!2sma" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div id="map-main">
             </div>
             <ul class="mapnavigation no-list-style">
                 <li><a href="#" class="prevmap-nav mapnavbtn"><span><i class="fas fa-caret-left"></i></span></a></li>
