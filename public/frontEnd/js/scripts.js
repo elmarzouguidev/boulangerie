@@ -18,7 +18,7 @@ function initTowhub() {
             preloadImages: false,
             slidesPerView: 4,
             spaceBetween: 15,
-            loop: true,
+            loop: false,
 
             grabCursor: true,
             mousewheel: false,
@@ -88,7 +88,7 @@ function initTowhub() {
             preloadImages: false,
             slidesPerView: 1,
             spaceBetween: 0,
-            loop: true,
+            loop: false,
             autoHeight: true,
             grabCursor: true,
             mousewheel: false,
@@ -105,7 +105,7 @@ function initTowhub() {
     if ($(".listing-carousel").length > 0) {
         var j3 = new Swiper(".listing-carousel .swiper-container", {
             preloadImages: false,
-            loop: true,
+            loop: false,
             grabCursor: true,
             speed: 1400,
 
@@ -143,7 +143,7 @@ function initTowhub() {
     if ($(".hero-slider").length > 0) {
         var hs = new Swiper(".hero-slider .swiper-container", {
             preloadImages: false,
-            loop: true,
+            loop: false,
             speed: 1400,
             spaceBetween: 0,
             pagination: {
@@ -161,7 +161,7 @@ function initTowhub() {
     if ($(".slideshow-container").length > 0) {
         var ms1 = new Swiper(".slideshow-container .swiper-container", {
             preloadImages: false,
-            loop: true,
+            loop: false,
             speed: 1400,
             spaceBetween: 0,
             effect: "fade",
@@ -196,7 +196,7 @@ function initTowhub() {
             freeMode: false,
             slidesPerView: 5,
             spaceBetween: 10,
-            loop: true,
+            loop: false,
             grabCursor: true,
             mousewheel: false,
             navigation: {
@@ -221,7 +221,7 @@ function initTowhub() {
             preloadImages: false,
             slidesPerView: 3,
             spaceBetween: 20,
-            loop: true,
+            loop: false,
             grabCursor: true,
             mousewheel: false,
             centeredSlides: true,
