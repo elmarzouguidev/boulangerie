@@ -16,7 +16,7 @@
                     <div class="listing-item-grid">
                         <div class="bg"  data-bg="frontEnd/images/all/casablanca.jpg"></div>
                         <div class="d-gr-sec"></div>
-                        <div class="listing-counter color2-bg"><span>150 </span> Locations</div>
+                        <div class="listing-counter color2-bg"><span>150 </span> boulangeries</div>
                         <div class="listing-item-grid_title">
                             <h3><a href="">Casablanca</a></h3>
                             <p> casablanca ville</p>
@@ -29,7 +29,7 @@
                     <div class="listing-item-grid">
                         <div class="bg"  data-bg="frontEnd/images/all/rabat.jpg"></div>
                         <div class="d-gr-sec"></div>
-                        <div class="listing-counter color2-bg"><span>22 </span> Locations</div>
+                        <div class="listing-counter color2-bg"><span>22 </span> boulangeries</div>
                         <div class="listing-item-grid_title">
                             <h3><a href="">Rabat</a></h3>
                             <p>Rabat ville</p>
@@ -42,7 +42,7 @@
                     <div class="listing-item-grid">
                         <div class="bg"  data-bg="frontEnd/images/all/agadir.jpg"></div>
                         <div class="d-gr-sec"></div>
-                        <div class="listing-counter color2-bg"><span>9 </span> Locations</div>
+                        <div class="listing-counter color2-bg"><span>9 </span> boulangeries</div>
                         <div class="listing-item-grid_title">
                             <h3><a href="">Agadir</a></h3>
                             <p>Agadir ville</p>
@@ -55,9 +55,9 @@
                     <div class="listing-item-grid">
                         <div class="bg"  data-bg="frontEnd/images/all/tanger.jpg"></div>
                         <div class="d-gr-sec"></div>
-                        <div class="listing-counter color2-bg"><span>12 </span> Locations</div>
+                        <div class="listing-counter color2-bg"><span>12 </span> boulangeries</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">Tanger</a></h3>
+                            <h3><a href="">Tanger</a></h3>
                             <p>Tanger villes</p>
                         </div>
                     </div>
@@ -68,9 +68,9 @@
                     <div class="listing-item-grid">
                         <div class="bg"  data-bg="frontEnd/images/all/kech.jpg"></div>
                         <div class="d-gr-sec"></div>
-                        <div class="listing-counter color2-bg"><span>33 </span> Locations</div>
+                        <div class="listing-counter color2-bg"><span>33 </span> boulangeries</div>
                         <div class="listing-item-grid_title">
-                            <h3><a href="listing.html">Marrakech</a></h3>
+                            <h3><a href="">Marrakech</a></h3>
                             <p>Marrakech villes</p>
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                 <!--  listing-item-grid end  -->                                                                                               
             </div>
         </div>
-        <a href="listing.html" class="btn dec_btn   color2-bg">View All Cities<i class="fal fa-arrow-alt-right"></i></a>
+        <a href="{{route('city')}}" class="btn dec_btn   color2-bg">Voir tous les villes<i class="fal fa-arrow-alt-right"></i></a>
     </div>
 </section>
 <!--  section  -->

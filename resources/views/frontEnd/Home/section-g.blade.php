@@ -5,9 +5,13 @@
                                 <div class="col-md-6">
                                     <div class="colomn-text  pad-top-column-text fl-wrap">
                                         <div class="colomn-text-title">
-                                            <h3>Our App   Available Now</h3>
-                                            <p>In ut odio libero, at vulputate urna. Nulla tristique mi a massa convallis cursus. Nulla eu mi magna. Etiam suscipit commodo gravida. Lorem ipsum dolor sit amet, conse ctetuer adipiscing elit.</p>
-                                            <a href="#" class=" down-btn color3-bg"><i class="fab fa-apple"></i>  Apple Store </a>
+                                            <h3>
+                                                Notre application est disponible dès maintenant
+                                            </h3>
+                                            <p>
+                                              Notre application est disponible dès maintenant
+                                            </p>
+                                            {{-- <a href="#" class=" down-btn color3-bg"><i class="fab fa-apple"></i>  Apple Store </a> --}}
                                             <a href="#" class=" down-btn color3-bg"><i class="fab fa-android"></i>  Google Play </a>
                                         </div>
                                     </div>
@@ -15,12 +19,12 @@
                                 <div class="col-md-6">
                                     <div class="collage-image">
                                         <img src="frontEnd/images/api.png" class="main-collage-image" alt="">                               
-                                        <div class="images-collage-title color2-bg icdec"> <img src="frontEnd/images/logo.png"   alt=""></div>
+                                        <div class="images-collage-title color2-bg icdec" style="background-color: #ffffff !important"> <img src="frontEnd/images/logoo.png"   alt=""></div>
                                         <div class="images-collage_icon green-bg" style="right:-20px; top:120px;"><i class="fal fa-thumbs-up"></i></div>
                                         <div class="collage-image-min cim_1"><img src="frontEnd/images/api/1.jpg" alt=""></div>
                                         <div class="collage-image-min cim_2"><img src="frontEnd/images/api/1.jpg" alt=""></div>
-                                        <div class="collage-image-btn green-bg">Booking now</div>
-                                        <div class="collage-image-input">Search <i class="fa fa-search"></i></div>
+                                        {{-- <div class="collage-image-btn green-bg">Booking now</div> --}}
+                                        <div class="collage-image-input">chercher <i class="fa fa-search"></i></div>
                                     </div>
                                 </div>
                             </div>

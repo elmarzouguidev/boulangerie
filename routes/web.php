@@ -24,9 +24,16 @@ Route::get('/transformation-digitale',['uses'=>'SiteController@transDigital','as
 //Route::get('/boutique',['uses'=>'SiteController@shop','as'=>'shop']);
 Route::get('fnbp',['uses'=>'SiteController@fnbp','as'=>'fnbp']);
 
-/***/
+/* Blog**/
 Route::get('blog',['uses'=>'SiteController@blog','as'=>'blog']);
 Route::get('blog/{slug}',['uses'=>'SiteController@blogSingle','as'=>'blog.single']);
+/***/
+
+/*** City */
+Route::get('villes',['uses'=>'CityController@index','as'=>'city']);
+Route::get('villes/{slug}',['uses'=>'CityController@single','as'=>'city.single']);
+/***/
+
 
 Route::get('/contact',['uses'=>'SiteController@contact','as'=>'contact']);
 

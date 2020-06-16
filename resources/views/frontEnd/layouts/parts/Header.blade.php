@@ -1,6 +1,6 @@
 <header class="main-header">
     <!-- logo-->
-    <a href="{{route('home')}}" class="logo-holder"><img src="frontEnd/images/logoo.png" alt="maBoulangerie"></a>
+    <a href="{{route('home')}}" class="logo-holder"><img src="{{asset('frontEnd/images/logoo.png')}}" alt="maBoulangerie"></a>
     <!-- logo end-->
     <!-- header-search_btn-->         
     <div class="header-search_btn show-search-button"><i class="fal fa-search"></i>

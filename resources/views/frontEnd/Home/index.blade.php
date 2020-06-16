@@ -9,6 +9,7 @@
    @include('frontEnd.Home.section-b')
    @include('frontEnd.Home.section-i')
    @include('frontEnd.Home.blog')
+   
 
    {{-- @include('frontEnd.Home.section-c') --}}
    {{-- @include('frontEnd.Home.section-d') --}}
