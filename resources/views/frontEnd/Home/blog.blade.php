@@ -4,10 +4,10 @@
             <h2> Actualités</h2>
             {{-- <div class="section-subtitle">the crew</div> --}}
             <span class="section-separator"></span>
-            <p>
+            {{-- <p>
                 Explore some of the best tips fro
                 m around the city from our partners and friends.
-            </p>
+            </p> --}}
         </div>
         <div class="about-wrap team-box2 fl-wrap">
            <!----Haymacproduction-- blog -->

@@ -11,7 +11,7 @@
                                             <p>
                                               Notre application est disponible dès maintenant
                                             </p>
-                                            {{-- <a href="#" class=" down-btn color3-bg"><i class="fab fa-apple"></i>  Apple Store </a> --}}
+                                            <a href="#" class=" down-btn color3-bg"><i class="fab fa-apple"></i>  Apple Store </a>
                                             <a href="#" class=" down-btn color3-bg"><i class="fab fa-android"></i>  Google Play </a>
                                         </div>
                                     </div>
@@ -21,8 +21,8 @@
                                         <img src="frontEnd/images/api.png" class="main-collage-image" alt="">                               
                                         <div class="images-collage-title color2-bg icdec" style="background-color: #ffffff !important"> <img src="frontEnd/images/logoo.png"   alt=""></div>
                                         <div class="images-collage_icon green-bg" style="right:-20px; top:120px;"><i class="fal fa-thumbs-up"></i></div>
-                                        <div class="collage-image-min cim_1"><img src="frontEnd/images/api/1.jpg" alt=""></div>
-                                        <div class="collage-image-min cim_2"><img src="frontEnd/images/api/1.jpg" alt=""></div>
+                                        <div class="collage-image-min cim_1"><img src="frontEnd/images/all/amoud.png" alt=""></div>
+                                        <div class="collage-image-min cim_2"><img src="frontEnd/images/all/amoud.png" alt=""></div>
                                         {{-- <div class="collage-image-btn green-bg">Booking now</div> --}}
                                         <div class="collage-image-input">chercher <i class="fa fa-search"></i></div>
                                     </div>

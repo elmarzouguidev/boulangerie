@@ -1,6 +1,6 @@
 <footer class="main-footer fl-wrap">
     <!-- footer-header-->
-    <div class="footer-header fl-wrap grad ient-dark">
+    {{-- <div class="footer-header fl-wrap grad ient-dark">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -107,7 +107,7 @@
             </svg>
         </div>
         <!-- footer bg  end-->
-    </div>
+    </div> --}}
     <!--footer-inner end -->
     <!--sub-footer-->
     <div class="sub-footer  fl-wrap">

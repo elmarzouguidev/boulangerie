@@ -48,7 +48,7 @@
                 </li>
                 <li><a href="{{route('patisserie')}}">Patisserie</a></li>
                 {{-- <li><a href="{{route('shop')}}">Boutique</a></li> --}}
-                <li><a href="{{route('fnbp')}}">FNBP</a></li>
+                <li><a href="http://fnbp.ma/" target="__blank">FNBP</a></li>
                 <li><a href="{{route('espacePro')}}">Espace pro</a></li>
                 <li><a href="{{route('transdigital')}}">Transformation Digitale</a></li>
                 <li><a href="{{route('contact')}}">Contact</a></li>

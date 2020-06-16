@@ -5,7 +5,7 @@
                     <div class="overlay op7"></div>
                     <div class="container">
                         <div class="section-title center-align big-title">
-                            <h2><span>Listings Without Map</span></h2>
+                            <h2><span>les Boulangerie</span></h2>
                             <span class="section-separator"></span>
                             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec tincidunt arcu, sit amet fermentum sem.</h4>
                         </div>

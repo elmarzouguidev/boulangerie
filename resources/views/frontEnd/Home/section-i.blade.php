@@ -8,34 +8,37 @@
                                         <div class="swiper-wrapper">
                                             <!--client-item-->
                                             <div class="swiper-slide">
-                                                <a href="#" class="client-item"><img src="frontEnd/images/clients/1.png" alt=""></a>
+                                                <a href="#" class="client-item"><img src="{{asset('frontEnd/images/logoo.png')}}" alt=""></a>
                                             </div>
                                             <!--client-item end-->
                                             <!--client-item-->
                                             <div class="swiper-slide">
-                                                <a href="#" class="client-item"><img src="frontEnd/images/clients/1.png" alt=""></a>
+                                                <a href="#" class="client-item"><img src="{{asset('frontEnd/images/logoo.png')}}" alt=""></a>
                                             </div>
                                             <!--client-item end-->
                                             <!--client-item-->
                                             <div class="swiper-slide">
-                                                <a href="#" class="client-item"><img src="frontEnd/images/clients/1.png" alt=""></a>
+                                                <a href="#" class="client-item"><img src="{{asset('frontEnd/images/logoo.png')}}" alt=""></a>
                                             </div>
                                             <!--client-item end-->
                                             <!--client-item-->
-                                            <div class="swiper-slide">
-                                                <a href="#" class="client-item"><img src="frontEnd/images/clients/1.png" alt=""></a>
-                                            </div>
-                                            <!--client-item end-->
-                                            <!--client-item-->
-                                            <div class="swiper-slide">
-                                                <a href="#" class="client-item"><img src="frontEnd/images/clients/1.png" alt=""></a>
-                                            </div>
-                                            <!--client-item end-->
-                                            <!--client-item-->
-                                            <div class="swiper-slide">
-                                                <a href="#" class="client-item"><img src="frontEnd/images/clients/1.png" alt=""></a>
-                                            </div>
-                                            <!--client-item end-->                                                                                                                                                                                                                                                
+                                                                                        <!--client-item-->
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="#" class="client-item"><img src="{{asset('frontEnd/images/logoo.png')}}" alt=""></a>
+                                                                                        </div>
+                                                                                        <!--client-item end-->
+                                                                                        <!--client-item-->
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="#" class="client-item"><img src="{{asset('frontEnd/images/logoo.png')}}" alt=""></a>
+                                                                                        </div>
+                                                                                        <!--client-item end-->
+                                                                                        <!--client-item-->
+                                                                                        <div class="swiper-slide">
+                                                                                            <a href="#" class="client-item"><img src="{{asset('frontEnd/images/logoo.png')}}" alt=""></a>
+                                                                                        </div>
+                                                                                        <!--client-item end-->
+                                                                                        <!--client-item-->
+                                                                                                                                                                                                                                                    
                                         </div>
                                     </div>
                                 </div>
