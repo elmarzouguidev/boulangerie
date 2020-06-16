@@ -3,7 +3,7 @@
         <div class="breadcrumbs inline-breadcrumbs fl-wrap block-breadcrumbs">
         <a href="{{route('home')}}">Accueil</a>
         <a href="{{route('blog')}}">Blog</a> 
-        <span>Blog Single</span> 
+        <span>Blog</span> 
             <div  class="showshare brd-show-share color2-bg"> <i class="fas fa-share"></i> Partagez </div>
         </div>
         <div class="share-holder hid-share sing-page-share top_sing-page-share">

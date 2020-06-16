@@ -20,7 +20,7 @@ class SiteController extends Controller
     }
     public function patisserieShop($slug)
     {
-        return view('frontEnd.Shop.index'); 
+        return view('frontEnd.Shop.index');
     }
     public function shop()
     {
@@ -28,8 +28,9 @@ class SiteController extends Controller
     }
 
 
-    public function fnbp(){
-        
+    public function fnbp()
+    {
+
         return view('frontEnd.Fnbp.index');
     }
 
@@ -45,6 +46,10 @@ class SiteController extends Controller
 
     /****Blog */
 
+    public function blog()
+    {
+        return view('frontEnd.Blog.index');
+    }
     public function blogSingle($slug)
     {
         return view('frontEnd.Blog.Single.index');

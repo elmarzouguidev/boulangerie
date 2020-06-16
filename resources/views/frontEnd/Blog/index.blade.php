@@ -4,7 +4,8 @@
 
 @section('content')
 
-   @include('frontEnd.Blog.')
-
+   @include('frontEnd.Blog.topCover')
+   
+   @include('frontEnd.Blog.main')
 
 @endsection
