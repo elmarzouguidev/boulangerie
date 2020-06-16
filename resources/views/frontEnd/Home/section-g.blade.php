@@ -1,5 +1,5 @@
                    <!--section  -->
-                    <section class="gradient-bg hidden-section" data-scrollax-parent="true">
+                    <section class="gradient-bg hidden-section" data-scrollax-parent="true" style="margin-top: 50px">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6">

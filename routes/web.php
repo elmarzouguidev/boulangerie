@@ -24,6 +24,10 @@ Route::get('/transformation-digitale',['uses'=>'SiteController@transDigital','as
 //Route::get('/boutique',['uses'=>'SiteController@shop','as'=>'shop']);
 Route::get('fnbp',['uses'=>'SiteController@fnbp','as'=>'fnbp']);
 
+/***/
+Route::get('blog',['uses'=>'SiteController@blog','as'=>'blog']);
+Route::get('blog/{slug}',['uses'=>'SiteController@blogSingle','as'=>'blog.single']);
+
 Route::get('/contact',['uses'=>'SiteController@contact','as'=>'contact']);
 
 Route::group(['prefix' => 'theadmin'], function () {

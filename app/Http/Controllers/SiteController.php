@@ -42,4 +42,11 @@ class SiteController extends Controller
     {
         return view('frontEnd.EspacePro.index');
     }
+
+    /****Blog */
+
+    public function blogSingle($slug)
+    {
+        return view('frontEnd.Blog.Single.index');
+    }
 }
