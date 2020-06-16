@@ -30,9 +30,26 @@ Route::get('blog/{slug}',['uses'=>'SiteController@blogSingle','as'=>'blog.single
 /***/
 
 /*** City */
-Route::get('villes',['uses'=>'CityController@index','as'=>'city']);
-Route::get('villes/{slug}',['uses'=>'CityController@single','as'=>'city.single']);
+
+Route::prefix('villes')->group(function () {
+
+    Route::get('/' ,['uses'=>'CityController@index','as'=>'city']);
+    Route::get('/{slug}',['uses'=>'CityController@single','as'=>'city.single']);
+    Route::get('/boulangerie/{slug}',['uses'=>'CityController@boulangerie','as'=>'city.single.boulangerie']);
+});
+
+
 /***/
+
+
+/***Boulangerie */
+
+Route::prefix('boulangerie')->group(function () {
+    Route::get('/' ,['uses'=>'BakeryController@index','as'=>'boulangerie']);
+    Route::get('/{slug}',['uses'=>'BakeryController@single','as'=>'boulangerie.single']);
+});
+
+/******* */
 
 
 Route::get('/contact',['uses'=>'SiteController@contact','as'=>'contact']);

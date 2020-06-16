@@ -69,16 +69,24 @@
                                 <div class="lang-wrap">
                                     <div class="show-lang"><span><i class="fal fa-globe-europe"></i><strong>FR</strong></span><i class="fa fa-caret-down arrlan"></i></div>
                                     <ul class="lang-tooltip lang-action no-list-style">
-                                        <li><a href="#" class="current-lan" data-lantext="En">Français</a></li>
-                                        <li><a href="#" data-lantext="Fr">Français</a></li>
+                                        <li><a href="#" class="current-lan" data-lantext="Fr">Français</a></li>
+                                      
                                        
                                     </ul>
                                 </div>
                                 <div class="subfooter-nav">
                                     <ul class="no-list-style">
-                                        <li><a href="#">Terms of use</a></li>
-                                        <li><a href="#">Privacy Policy</a></li>
-                                        <li><a href="#">Blog</a></li>
+                                        <li>
+                                            <a href="#">
+                                              Conditions d'utilisation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                              Politique de confidentialité
+                                            </a>
+                                        </li>
+                                        <li><a href="{{route('blog')}}">Blog</a></li>
                                     </ul>
                                 </div>
                             </div>

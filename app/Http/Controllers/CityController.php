@@ -17,4 +17,8 @@ class CityController extends Controller
     {
         return view('frontEnd.City.Single.index',compact('slug'));
     }
+    public function boulangerie()
+    {
+        return view('frontEnd.City.Single.index',compact('slug')); 
+    }
 }

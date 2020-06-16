@@ -70,7 +70,7 @@
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="listing-item-grid">
-                                            <div class="bg"  data-bg="frontEnd/images/all/casablanca.jpg"></div>
+                                            <div class="bg"  data-bg="{{asset('frontEnd/images/all/casablanca.jpg')}}"></div>
                                             <div class="d-gr-sec"></div>
                                             <div class="listing-counter color2-bg"><span>150 </span> boulangeries</div>
                                             <div class="listing-item-grid_title">
@@ -83,7 +83,7 @@
                                     <!--  listing-item-grid  -->
                                     <div class="col-sm-4">
                                         <div class="listing-item-grid">
-                                            <div class="bg"  data-bg="frontEnd/images/all/rabat.jpg"></div>
+                                            <div class="bg"  data-bg="{{asset('frontEnd/images/all/rabat.jpg')}}"></div>
                                             <div class="d-gr-sec"></div>
                                             <div class="listing-counter color2-bg"><span>22 </span> boulangeries</div>
                                             <div class="listing-item-grid_title">
@@ -96,7 +96,7 @@
                                     <!--  listing-item-grid  -->
                                     <div class="col-sm-4">
                                         <div class="listing-item-grid">
-                                            <div class="bg"  data-bg="frontEnd/images/all/agadir.jpg"></div>
+                                            <div class="bg"  data-bg="{{asset('frontEnd/images/all/agadir.jpg')}}"></div>
                                             <div class="d-gr-sec"></div>
                                             <div class="listing-counter color2-bg"><span>9 </span> boulangeries</div>
                                             <div class="listing-item-grid_title">
@@ -109,7 +109,7 @@
                                     <!--  listing-item-grid  -->
                                     <div class="col-sm-4">
                                         <div class="listing-item-grid">
-                                            <div class="bg"  data-bg="frontEnd/images/all/tanger.jpg"></div>
+                                            <div class="bg"  data-bg="{{asset('frontEnd/images/all/tanger.jpg')}}"></div>
                                             <div class="d-gr-sec"></div>
                                             <div class="listing-counter color2-bg"><span>12 </span> boulangeries</div>
                                             <div class="listing-item-grid_title">
@@ -122,7 +122,7 @@
                                     <!--  listing-item-grid  -->
                                     <div class="col-sm-8">
                                         <div class="listing-item-grid">
-                                            <div class="bg"  data-bg="frontEnd/images/all/kech.jpg"></div>
+                                            <div class="bg"  data-bg="{{asset('frontEnd/images/all/kech.jpg')}}"></div>
                                             <div class="d-gr-sec"></div>
                                             <div class="listing-counter color2-bg"><span>33 </span> boulangeries</div>
                                             <div class="listing-item-grid_title">
