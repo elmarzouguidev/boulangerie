@@ -20,8 +20,10 @@ class CreateVillesTable extends Migration
             $table->string('image')->nullable();
             $table->string('seotitle')->nullable();
             $table->string('seodescription')->nullable();
+
             $table->double('address_latitude')->unique();
             $table->double('address_longitude')->unique();
+            
             $table->foreignId('pay_id');
             $table->foreign('pay_id')->references('id')->on('pays');
             $table->timestamps();

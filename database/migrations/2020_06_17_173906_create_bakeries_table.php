@@ -33,12 +33,22 @@ class CreateBakeriesTable extends Migration
 
             $table->boolean('active')->default(true);
 
+            $table->boolean('pro')->default(false);
+
             $table->boolean('in_home')->default(false);
             $table->date('from_date')->nullable();
             $table->date('to_date')->nullable();
 
+
+            $table->string('facebook')->nullable()->unique();
+            $table->string('instagram')->nullable()->unique();
+            $table->string('youtube')->nullable()->unique();
+            $table->string('linkedin')->nullable()->unique();
+            $table->string('twitter')->nullable()->unique();
+
             $table->foreignId('zone_id');
             $table->foreignId('ville_id');
+            $table->foreignId('categorie_id')->nullable();
 
             $table->double('address_latitude')->unique();
             $table->double('address_longitude')->unique();
@@ -48,6 +58,7 @@ class CreateBakeriesTable extends Migration
 
             $table->foreign('zone_id')->references('id')->on('zones');
             $table->foreign('ville_id')->references('id')->on('villes');
+           // $table->foreign('categorie_id')->references('id')->on('categories');
         });
     }
 

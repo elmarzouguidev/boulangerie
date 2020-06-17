@@ -54,6 +54,6 @@ Route::prefix('boulangerie')->group(function () {
 
 Route::get('/contact',['uses'=>'SiteController@contact','as'=>'contact']);
 
-Route::group(['prefix' => 'theadmin'], function () {
-    Voyager::routes();
-});
+// Route::group(['prefix' => 'theadmin'], function () {
+//     Voyager::routes();
+// });
