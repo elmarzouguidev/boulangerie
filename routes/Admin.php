@@ -12,6 +12,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/login',['uses'=>'Auth\LoginController@login','as'=>'login']);
+Route::get('/login',['uses'=>'Auth\LoginController@login','as'=>'logdin']);
 
 Route::get('/',['uses'=>'DashController@index','as'=>'dash']);
