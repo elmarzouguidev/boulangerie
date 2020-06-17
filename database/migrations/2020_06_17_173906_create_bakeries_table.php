@@ -21,6 +21,7 @@ class CreateBakeriesTable extends Migration
             $table->id();
             $table->string('name',100);
             $table->string('slug')->unique();
+            $table->string('address')->nullable();
             $table->string('logo')->nullable()->default('bakery.png');
             $table->longText('description')->nullable();
             $table->string('image')->nullable()->default('bakery.jpg');
