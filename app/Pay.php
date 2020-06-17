@@ -12,4 +12,5 @@ class Pay extends Model
     {
         return $this->hasMany('App\Ville');
     }
+    
 }
