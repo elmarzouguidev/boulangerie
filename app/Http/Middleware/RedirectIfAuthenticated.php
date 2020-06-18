@@ -19,20 +19,20 @@ class RedirectIfAuthenticated
     public function handle($request, Closure $next, $guard = null)
     {
         switch ($guard) {
-            
+
             case 'admin':
-                    if (Auth::guard($guard)->check()) {
+                if (Auth::guard($guard)->check()) {
                     return redirect()->route('admin.dash');
-                 }
-                    break;
-       
+                }
+                break;
+
             default:
-                    if (Auth::guard($guard)->check()) {
-                     return redirect('/');
-                    }
-                    break;
-                 }
-            
-         return $next($request);
+                if (Auth::guard($guard)->check()) {
+                    return redirect()->route('user.account');
+                }
+                break;
+        }
+
+        return $next($request);
     }
 }

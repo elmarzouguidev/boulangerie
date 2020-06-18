@@ -14,4 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', ['uses' => 'DashController@index', 'as' => 'dash']);
+
+
+Route::get('/', ['uses' => 'AccountController@index', 'as' => 'account']);
+
