@@ -8,4 +8,9 @@ use Illuminate\Http\Request;
 class DashController extends Controller
 {
     //
+
+    public function index()
+    {
+         return 'yees';
+    }
 }

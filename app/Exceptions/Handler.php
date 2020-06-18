@@ -6,6 +6,8 @@ use Throwable;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 
+use Illuminate\Support\Arr;
+
 class Handler extends ExceptionHandler
 {
     /**
@@ -54,23 +56,21 @@ class Handler extends ExceptionHandler
         return parent::render($request, $exception);
     }
 
-    protected function unauthenticated(
-        $request, 
-        AuthenticationException $exception
-    )
+    protected function unauthenticated($request, AuthenticationException $exception)
     {
-        if (in_array('admin', $exception->guards())) {
-            return $request->expectsJson()
-                ? response()->json([
-                      'message' => $exception->getMessage()
-                ], 401)
-                : redirect()->guest(route('admin.login'));
+        if ($request->expectsJson()) {
+            return response()->json(['error' => 'Unauthenticated.'], 401);
         }
-    
-        return $request->expectsJson()
-            ? response()->json([
-                  'message' => $exception->getMessage()
-            ], 401)
-            : redirect()->guest(route('user.login'));
+
+        $guard = Arr::get($exception->guards(), 0);
+        switch ($guard) {
+            case 'admin':
+                $login = 'admin.login';
+                break;
+            default:
+                $login = 'user.login';
+                break;
+        }
+        return redirect()->guest(route($login));
     }
 }

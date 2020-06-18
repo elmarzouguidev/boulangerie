@@ -54,3 +54,5 @@ Route::prefix('boulangerie')->group(function () {
 
 Route::get('/contact', ['uses' => 'SiteController@contact', 'as' => 'contact']);
 
+
+

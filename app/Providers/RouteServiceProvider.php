@@ -42,16 +42,15 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function map()
     {
-    
+
         $this->mapWebRoutes();
 
         $this->mapLoginRoutes();
 
-        $this->mapUserRoutes();
-
         $this->mapAdminRoutes();
 
-      
+        $this->mapUserRoutes();
+
         $this->mapApiRoutes();
         //
     }
@@ -66,13 +65,13 @@ class RouteServiceProvider extends ServiceProvider
 
     private function getNameSpace()
     {
-        if (request()->is(env('ADMIN_DASH_PREFIX') . '/*')) {
+        if (request()->is(env('ADMIN_DASH_PREFIX') . '/login')) {
 
-            return $this->namespace . '\Admin';
+            return $this->namespace . '\Auth\Admin';
         }
-        if (request()->is(env('ACCOUNT_DASH_PREFIX') . '/*')) {
+        if (request()->is(env('ACCOUNT_DASH_PREFIX') . '/login')) {
 
-            return $this->namespace . '\User';
+            return $this->namespace . '\Auth\User';
         }
     }
     protected function mapLoginRoutes()
@@ -103,9 +102,10 @@ class RouteServiceProvider extends ServiceProvider
     {
         Route::prefix(env('ADMIN_DASH_PREFIX'))
 
-            ->middleware(['auth:admin'])
+            //->middleware('auth:admin')
             ->namespace($this->namespace . '\Admin')
-            ->name('admin.')
+            
+            ->as('admin.')
             ->group(base_path('routes/admin.php'));
     }
 

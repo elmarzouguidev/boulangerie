@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * @Author : Elmarzougui Abdelghafour
+ * @facebook : https://facebook.com/devscript
+ * @linkedIn :https://www.linkedin.com/in/devscript/
+ * @twitter  :https://twitter.com/devscriptt
+ */
 namespace App;
 
 use Illuminate\Contracts\Auth\MustVerifyEmail;
@@ -18,7 +24,8 @@ class Admin extends Authenticatable
     protected $fillable = [
         'name', 'email', 'password',
     ];
-
+    
+    protected $guard = 'admin';
     /**
      * The attributes that should be hidden for arrays.
      *

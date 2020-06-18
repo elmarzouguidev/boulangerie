@@ -14,4 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', ['uses' => 'DashController@index', 'as' => 'dash']);
+
+Route::group([
+    'middleware' => [
+        'auth:admin',
+    ],
+], function () {
+    Route::get('/', ['uses' => 'DashController@index', 'as' => 'dash']);
+});
