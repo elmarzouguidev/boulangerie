@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Auth\User;
+namespace App\Http\Controllers\User\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
@@ -36,7 +36,7 @@ class UserLoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
-        
+
         $this->redirectTo = route('user.account');
     }
 
