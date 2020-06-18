@@ -15,6 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 
 
+Route::get('/login', ['uses' => 'UserLoginController@showLoginForm', 'as' => 'login']);
+Route::post('/login', ['uses' => 'UserLoginController@login', 'as' => 'login']);
 
-Route::get('/', ['uses' => 'AccountController@index', 'as' => 'account']);
 
+Route::group([
+
+    'middleware' => [
+        'auth',
+    ],
+
+], function () {
+    Route::get('/', ['uses' => 'AccountController@index', 'as' => 'account']);
+});

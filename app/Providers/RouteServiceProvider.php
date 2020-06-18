@@ -45,11 +45,13 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-      //  $this->mapLoginRoutes();
+        //  $this->mapLoginRoutes();
+
+        $this->mapUserRoutes();
 
         $this->mapAdminRoutes();
 
-        $this->mapUserRoutes();
+
 
         $this->mapApiRoutes();
         //
@@ -91,9 +93,9 @@ class RouteServiceProvider extends ServiceProvider
 
     protected function mapUserRoutes()
     {
-        Route::middleware('auth')
-            ->prefix(env('ACCOUNT_DASH_PREFIX'))
-            ->name('user.')
+        Route::prefix(env('ACCOUNT_DASH_PREFIX'))
+            ->middleware('web')
+            ->as('user.')
             ->namespace($this->namespace . '\User')
             ->group(base_path('routes/user.php'));
     }

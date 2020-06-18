@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\User\Auth;
+namespace App\Http\Controllers\User;
 
 use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
@@ -37,7 +37,7 @@ class UserLoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
 
-        $this->redirectTo = route('user.account');
+        //$this->redirectTo = route('user.account');
     }
 
     public function showLoginForm()

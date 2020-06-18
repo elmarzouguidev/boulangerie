@@ -15,15 +15,13 @@ use Illuminate\Support\Facades\Route;
 
 
 
-    Route::get('/login', ['uses' => 'AdminLoginController@showLoginForm', 'as' => 'login']);
-    Route::post('/login', ['uses' => 'AdminLoginController@login', 'as' => 'login']);
-
-
+Route::get('/login', ['uses' => 'AdminLoginController@showLoginForm', 'as' => 'login']);
+Route::post('/login', ['uses' => 'AdminLoginController@login', 'as' => 'login']);
 
 
 Route::group([
     'middleware' => [
-        'auth:admin',
+        'auth:admin'
     ],
 ], function () {
     Route::get('/', ['uses' => 'DashController@index', 'as' => 'dash']);

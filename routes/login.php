@@ -23,7 +23,7 @@ Route::group(['prefix' => env('ACCOUNT_DASH_PREFIX')], function () {
 
 Route::group(['prefix' => env('ADMIN_DASH_PREFIX')], function () {
 
-    Route::get('/login', ['uses' => 'AdminLoginController@showLoginForm', 'as' => 'admind.login']);
+    Route::get('/login', ['uses' => 'AdminLoginController@showLoginForm', 'as' => 'admin.login']);
     Route::post('/login', ['uses' => 'AdminLoginController@login', 'as' => 'admin.login']);
 
 });
